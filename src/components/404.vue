@@ -1,30 +1,16 @@
 <template>
   <div>
     <h1>{{ msg }}</h1>
-    <div class="flex-box">
-      <router-link to="/redirect-to-Index">redirect-to-Index</router-link>
-      <!-- <router-link to="/alias-to-MyES6">alias-to-MyES6</router-link> -->
-      <router-link to="/123456">Error-404</router-link>
-    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'MyES6',
   data () {
     return {
-      msg: 'Welcome to My ES6'
+      msg: 'Error:404'
     }
   },
-/*   beforeRouteEnter:(to, from, next) => {
-   console.log('准备进入');
-   next();
-  },
-  beforeRouteLeave: (to,from,next)=> {
-    console.log('准备离开');
-    next();
-  }, */
   created () {
     // destructuring
   function bf(){
@@ -442,12 +428,5 @@ export default {
 
 
 <style scoped>
-.flex-box{
-  display: flex;
-  justify-content: space-evenly;
-  background: #efeded;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding: 20px 0;
-}
+
 </style>
