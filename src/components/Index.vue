@@ -5,6 +5,7 @@
       <!-- <router-link to="/">Index</router-link> -->
       <router-link to="/MyES6">MyES6</router-link>
       <router-link to="/Count">Vuex-Count</router-link>
+      <router-link to="/MyVue">MyVue</router-link>
     </div>
   </div>
 </template>

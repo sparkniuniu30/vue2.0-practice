@@ -8,7 +8,7 @@
 export default {
   data () {
     return {
-      msg: 'Error:404'
+      msg: 'HelloWord'
     }
   }
 }
