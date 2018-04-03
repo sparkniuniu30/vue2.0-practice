@@ -11,6 +11,11 @@
       <router-link to="/Bind">v-bind</router-link>
       <router-link to="/Other">other</router-link>
     </div>
+    <div class="flex-box">
+        <router-link to="/Directive">directive</router-link>
+        <router-link to="/Extend">extend</router-link>
+
+    </div>
   </div>
 </template>
 

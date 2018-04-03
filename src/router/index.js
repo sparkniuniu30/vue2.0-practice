@@ -14,6 +14,8 @@ import On from '@/components/myvue/On'
 import Model from '@/components/myvue/Model'
 import Bind from '@/components/myvue/Bind'
 import Other from '@/components/myvue/Other'
+import Directive from '@/components/myvue/Directive'
+import Extend from '@/components/myvue/Extend'
 
 Vue.use(Router)
 
@@ -70,6 +72,12 @@ export default new Router({
     },{
       path:'/Other',
       component:Other
+    },{
+      path:'/Directive',
+      component:Directive
+    },{
+      path:'/Extend',
+      component:Extend
     }
   ]
 })
