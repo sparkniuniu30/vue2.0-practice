@@ -16,6 +16,17 @@ import Bind from '@/components/myvue/Bind'
 import Other from '@/components/myvue/Other'
 import Directive from '@/components/myvue/Directive'
 import Extend from '@/components/myvue/Extend'
+import Set from '@/components/myvue/Set'
+import LifeCircle from '@/components/myvue/LifeCircle'
+import Template from '@/components/myvue/Template'
+import Component from '@/components/myvue/Component'
+import PropsData from '@/components/myvue/PropsData'
+import Computed from '@/components/myvue/Computed'
+import Methods from '@/components/myvue/Methods'
+import Watch from '@/components/myvue/Watch'
+import Mixins from '@/components/myvue/Mixins'
+import Extends from '@/components/myvue/Extends'
+import Example from '@/components/myvue/Example'
 
 Vue.use(Router)
 
@@ -78,6 +89,39 @@ export default new Router({
     },{
       path:'/Extend',
       component:Extend
+    },{
+      path:'/Set',
+      component:Set
+    },{
+      path:'/LifeCircle',
+      component:LifeCircle
+    },{
+      path:'/Template',
+      component:Template
+    },{
+      path:'/Component',
+      component:Component
+    },{
+      path:'/PropsData',
+      component:PropsData
+    },{
+      path:'/Computed',
+      component:Computed
+    },{
+      path:'/Methods',
+      component:Methods
+    },{
+      path:'/Watch',
+      component:Watch
+    },{
+      path:'/Mixins',
+      component:Mixins
+    },{
+      path:'/Extends',
+      component:Extends
+    },{
+      path:'/Example',
+      component:Example
     }
   ]
 })

@@ -2,8 +2,8 @@
   <div>
     <h1>{{ msg }}</h1>
     <div>
-      <div id="author"></div>
-      <author></author>
+      <!-- <div id="author"></div>
+      <author></author> -->
     </div> 
   </div>
 </template>
@@ -11,7 +11,7 @@
 
 
 <script>
-import Vue from 'vue'
+/* import Vue from 'vue'
 var authorExtend = Vue.extend({
   template: "<p><a :href='authorUrl'>{{authorName}}</a></p>",
   data(){
@@ -22,7 +22,7 @@ var authorExtend = Vue.extend({
   }
 });
 new authorExtend().$mount('#author');
-new authorExtend().$mount('author');
+new authorExtend().$mount('author'); */
 
 export default {
   data () {

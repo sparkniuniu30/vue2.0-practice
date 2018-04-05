@@ -14,7 +14,22 @@
     <div class="flex-box">
         <router-link to="/Directive">directive</router-link>
         <router-link to="/Extend">extend</router-link>
-
+        <router-link to="/Set">set</router-link>
+        <router-link to="/LifeCircle">lifecircle</router-link>
+        <router-link to="/Template">template</router-link>
+        <router-link to="/Component">component</router-link>
+    </div>
+    <div class="flex-box">
+        <router-link to="/PropsData">propsData</router-link>
+        <router-link to="/Computed">computed</router-link>
+        <router-link to="/Methods">methods</router-link>
+        <router-link to="/Watch">watch</router-link>
+        <router-link to="/Mixins">mixins</router-link>
+        <router-link to="/Extends">extends</router-link>
+    </div>
+    <div class="flex-box">
+        <router-link to="/Example">example</router-link>
+      
     </div>
   </div>
 </template>
